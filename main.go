@@ -9,7 +9,7 @@ import (
 
 func main() {
 	// Initialize the HTML template engine
-	engine := html.New("./views", ".html")
+	engine := html.New("./", ".html")
 
 	// You can add functions to your templates
 	engine.AddFunc("greet", func(name string) string {
